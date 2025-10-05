@@ -1,5 +1,6 @@
 # Universal ECG Viewer with GPU Acceleration
 
+![ECG Viewer Screenshot](Screenshot%202025-10-05%20235256.png)
 Universal ECG Viewer is a desktop application for visualization and analysis of electrocardiographic data from binary files. The program supports configurable number of leads (3, 5, 12 or more), automatic file format detection, and options for loading selected time segments from long-term recordings. 
 
 It includes digital signal filtering (bandpass and notch filters), automatic heart rate calculation, data navigation with variable time window, scaling, and CSV export functionality. The application offers optional GPU acceleration via CUDA/CuPy for faster processing of large files, with automatic fallback to CPU mode when suitable hardware is unavailable.
